@@ -26,9 +26,9 @@ const SearchForm = () => {
         console.log(`ON FINISHED CALLED ---sanitizedFormValues `, formValues);
 
         // submit(formData, { replace: false });
-        // submit(formData, { replace: true, method: "get" });
+        submit(formData, { replace: true, method: "get" });
 
-        formSubmitFetcher.submit(formData, { method: "get" });
+        // formSubmitFetcher.submit(formData, { method: "get" });
       }}
       initialValues={{}}
     >
